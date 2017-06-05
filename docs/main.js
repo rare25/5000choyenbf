@@ -6,7 +6,7 @@ $(document).ready(
 
 function run() {
     var pointer = 0;
-    var memory = new Uint8Array($('#memorysize-input').val());
+    var memory = new Uint8Array(Number($('#memorysize-input').val()));
     var output = '';
     var program = $('#input-text').val();
     var bracket = 0;
