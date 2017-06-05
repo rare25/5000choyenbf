@@ -56,4 +56,5 @@ border: 1px solid #b9b9b9;
     background-color:#00aa22;
     border-radius:5px;
     outline: none;
+    cursor: pointer;
 }
