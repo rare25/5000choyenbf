@@ -1,0 +1,59 @@
+html,body,h1{
+    margin:0;
+    padding:0;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    outline-color: #000
+}
+
+.header{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu{
+    margin: 3px;
+}
+
+#memorysize-input{
+    width: 60px;
+}
+
+.description{
+    margin: 6px;
+}
+
+table {
+    border:solid 1px #333;
+}
+
+table td{
+padding: 2px 6px 2px 6px;
+border: 1px solid #b9b9b9;
+}
+
+.textbox{
+    width: 100%;
+}
+
+.textbox > .textbox-name{
+    background-color: #333;
+    color: white;
+}
+
+#run-button {
+    width:100px;
+    font-size:20px;
+    text-align:center;
+    padding: 0px 8px 0px 8px;
+    color:#fff;
+    background-color:#00aa22;
+    border-radius:5px;
+    outline: none;
+}

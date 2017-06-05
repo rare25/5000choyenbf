@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>プログラミング言語「5000兆円欲しい！」</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>プログラミング言語「5000兆円欲しい！」</h1>
+    </div>
+    <div class="textbox">
+        <div class="textbox-name">
+            プログラム
+        </div>
+        <textarea id="input-text" spellcheck="false" rows="10">555555555兆し55555555し55555555555し55555いいい0円し欲し55欲5555555欲欲555欲し0欲000000000000欲い55555555欲00000000欲555欲000000欲00000000欲し5欲</textarea>
+    </div>
+    <div class="menu">
+        メモリーサイズ
+        <input type="number" id="memorysize-input" value="100">
+        <button id="run-button">▶実行</button>
+    </div>
+    <div class="textbox">
+        <div class="textbox-name">
+            出力
+        </div>
+        <textarea id="output-text" spellcheck="false" rows="2"></textarea>
+    </div>
+    <div class="description">
+        <p>Brainfuckの派生言語です。Brainfuckの命令と5000兆円欲しい！の命令、どちらも使えます。</p>
+        <p>対応する命令</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>+</td>
+                    <td>5</td>
+                    <td>現在ポインタが指している値を1増やす（インクリメントする）。</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>0</td>
+                    <td>現在ポインタが指している値を1減らす（デクリメントする）。</td>
+                </tr>
+                <tr>
+                    <td>[</td>
+                    <td>兆</td>
+                    <td>現在ポインタが指している値が0であれば対応する「]」にジャンプする。</td>
+                </tr>
+                <tr>
+                    <td>]</td>
+                    <td>円</td>
+                    <td>現在ポインタが指している値が0でなければ対応する「[」にジャンプする。</td>
+                </tr>
+                <tr>
+                    <td>.</td>
+                    <td>欲</td>
+                    <td>現在ポインタが指している値を出力する。</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>し</td>
+                    <td>ポインタを一つ進める（インクリメントする）。</td>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>い</td>
+                    <td>ポインタを一つ戻す（デクリメントする）。</td>
+
+                </tr>
+                <tr>
+                    <td>,</td>
+                    <td>！</td>
+                    <td>1バイトを入力し、現在ポインタが指している値に代入する。(未実装)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>作者Twitter:<a href="https://twitter.com/rarity_rare25">@rarity_rare25</a> ソース:<a href="https://github.com/Rare25/5000choyenbf">5000choyenbf</a></p>
+    </div>
+</body>
+
+</html>
